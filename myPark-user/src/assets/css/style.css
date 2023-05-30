@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+#container {
+  height: 80vh;
+  width: 100%;
+  background: #eaf5ff;
+  position: relative;
+}
+
+
+#logo {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -5px;
+  left: calc(45% - 60px);
+}
+
+#logo img {
+  height: 120px;
+}
+
+/* #sideimg {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  z-index: 999;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+} */
+
+/* #sideimg img {
+  height: 500px;
+} */
+
+#content {
+  height: 400px;
+  width: 590px;
+  position: absolute;
+  left: 5%;
+  top: calc(60% - 200px);
+}
+
+#tit h2 {
+  font-size: 60px;
+  color: #d40219;
+  font-weight: 900;
+}
+
+#tit button {
+  height: 70px;
+  width: 200px;
+  border: none;
+  outline: none;
+  background: #d40219;
+  font-weight: 900;
+  margin-top: 30px;
+  color: #fff;
+  border-radius: 10%;
+}
+
+.article h1::after {
+  content: '';
+  background-color: #007bff;
+  display: block;
+  height: 3px;
+  width: 250px;
+  margin: 20px auto 5px;
+}
+
+.article a {
+  list-style: none;
+  color: #000;
+  outline: none;
+  text-decoration: none !important;
+}
+
+.article a:hover {
+  color: yellowgreen;
+  transition: 0.3s;
+}
+
+.article p {
+  font-size: 21px;
+  padding: 10px;
+}
+
+.article span {
+  color: yellowgreen;
+}
+
+.article .card {
+  padding: 5px;
+}
+
+#cost {
+  margin-left: 250px;
+  margin-top: -55px;
+  font-size: 20px;
+  color: orange;
+}
+
+#name {
+  padding: 10px;
+}
+
+small {
+  padding: 10px;
+}
+
+small a {
+  height: 70px;
+  width: 200px;
+  border: none;
+  outline: none;
+  background: #eee;
+  font-weight: 900;
+  margin-top: 30px;
+  text-decoration: none !important;
+  padding: 5px;
+}
+
+/* End Of New Product  */
+.title-box {
+  text-align: center;
+  margin: 100px auto 50px;
+}
+
+.title-box h1::after {
+  content: '';
+  background-color: #007bff;
+  display: block;
+  height: 3px;
+  width: 250px;
+  margin: 20px auto 5px;
+}
+
+.profile-box {
+  width: 240px;
+  height: 240px;
+  background: #ddd;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 10px 10px rgba(115, 193, 255, 0.1);
+  padding: 20px;
+  position: relative;
+}
+
+.profile-box img {
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  border-radius: 4px;
+}
+
+.profile-box h4 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: #2196f3;
+  font-size: 17px;
+}
+
+small {
+  color: #555;
+}
+
+.social-link {
+  background: #2196f3;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 60px;
+}
+
+.social-link .fa {
+  margin: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile-box p {
+  text-align: center;
+  line-height: 24px;
+  color: #555;
+}
+
+
+/* End Of Team  */
+#services {
+  background-image: url(../image/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* margin-right: -20px !important; */
+  margin-top: 50px;
+}
+
+#services h1 {
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+
+#services h1::after {
+  content: '';
+  background-color: #155263;
+  display: block;
+  height: 3px;
+  width: 250px;
+  margin: 20px auto 5px;
+}
+
+.services {
+  margin-top: 40px;
+}
+
+.icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 10px;
+  height: 80px;
+  width: 80px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+#services p {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+/* End Of Services  */
+
+.info_section {
+  background-color: #155263;
+  color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.info_section .info_col {
+  margin-bottom: 35px;
+}
+
+.info_section .contact_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.info_section .contact_nav a {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.info_section .contact_nav a i {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.info_section .contact_nav a:hover {
+  color: #d40219;
+}
+
+.info_section h4 {
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.info_section .social_box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* margin-top: 25px; */
+
+}
+
+.info_section .social_box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  /* display: flex; */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 10px;
+  background-color: #155263;
+}
+
+.info_section .social_box a:hover {
+  color: #d40219;
+  border-color: #d40219;
+}
+
+.info_section .info_form input {
+  width: 100%;
+  border: none;
+  height: 45px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  background-color: #eaeaea;
+  outline: none;
+  color: #101010;
+}
+
+.info_section .info_form button {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #d40219;
+  color: #ffffff;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+.info_section .info_form button:hover {
+  background-color: #ef3e00;
+}
+
+/* footer section*/
+.footer_section {
+  position: relative;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.footer_section p {
+  color: #155263;
+  padding: 25px 0;
+  margin: 0;
+}
+
+.footer_section p a {
+  color: inherit;
+}
+
+.navbar {
+  background-color: #155263;
+}
+
+.nav-item:hover {
+  text-decoration: underline #ef3e00 5px;
+  color: #ef3e00;
+}
+
+.social_box a {
+  text-decoration: none;
+}
+
+.socialLink{
+  position: fixed;
+  right: 5%;
+  top: 40%;
+  z-index: 1000000;
+}
+
